@@ -1,0 +1,24 @@
+// variables
+@import "./variables";
+
+// reset all css
+@import "./reset";
+
+// common css
+@import "./common";
+
+// components
+@import "./components/button";
+@import "./components/container";
+
+// sections
+@import "./sections/navbar";
+@import "./sections/hero";
+@import "./sections/features";
+@import "./sections/specs";
+@import "./sections/testimonial";
+@import "./sections/pricing";
+@import "./sections/faq";
+@import "./sections/contact";
+@import "./sections/offer";
+@import "./sections/footer";

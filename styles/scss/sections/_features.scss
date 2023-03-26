@@ -1,0 +1,54 @@
+.features {
+  background-color: #f8f9fa;
+  padding: 100px 0;
+
+  &_content {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+  }
+
+  &_media {
+    width: 260px;
+    align-self: self-end;
+
+    &_img {
+      width: 100%;
+    }
+  }
+
+  &_cards {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 360px;
+  }
+
+  &_card {
+    display: flex;
+    align-items: start;
+    gap: 5px;
+
+    &_title {
+      font-size: 32px;
+      font-weight: 500;
+      color: #212529;
+      margin-bottom: 10px;
+    }
+
+    &_icon {
+      color: $primary;
+      font-size: 30px;
+      border: 1px solid $primary;
+      border-radius: 100%;
+      padding: 8px;
+    }
+
+    &_text {
+      font-size: 16px;
+      line-height: 1.4;
+      color: #323639;
+    }
+  }
+}

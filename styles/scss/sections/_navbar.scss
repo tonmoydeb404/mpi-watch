@@ -1,0 +1,20 @@
+.navbar {
+  background-color: #f8f9fa;
+  padding: 12px 0;
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &_links {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    li {
+      font-weight: 600;
+    }
+  }
+}
